@@ -8,15 +8,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <!--Here I styled for Icons-->
     <style>
-    body {
-      margin: 0;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background-color: #f0f0f0;
-    }
 
     img {
       max-width: 90%;
@@ -44,6 +35,29 @@
     .contact-icon:hover {
       color: #4078c0; /* hover on blue*/
     }
+    .image-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    .image-container img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .floating-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
     </style>
 
     
@@ -66,9 +80,13 @@
     </nav>
     <main>
         <!--main content goes here-->
-    learn more about Itumeleng Mokebe by navigating on above menu.
+        <div class="image-container">
+             <p><h2>learn more about Itumeleng Mokebe by navigating on above menu</h2></p>
+    
         <img src="tools/ITUMELENG ROUND.png" alt="Background picture">
        
+        </div>
+   
     </main>
     <footer class="footer-box">
         <a class="contact-icon" href="mailto:mrmokebei@gmail.com"></a>
