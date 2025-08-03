@@ -58,6 +58,25 @@
       padding: 10px 20px;
       border-radius: 10px;
     }
+    .container {
+  position: relative;
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* space between icons */
+  margin-bottom: 10px;
+}
+
+
     </style>
 
     
@@ -80,17 +99,19 @@
     </nav>
     <main>
         <!--main content goes here-->
-        <div class="image-container">
-             <p><h2>learn more about Itumeleng Mokebe by navigating on above menu</h2></p>
-    
-        <img src="tools/ITUMELENG ROUND.png" alt="Background picture">
+        <nav class="nav2-box"><p class="centered-text"></p><h2>learn more about Itumeleng Mokebe by navigating on above menu</h2></p>
+    </nav>
+        <div class="container">
+             
+        <img src="tools/ITUMELENG nnnnnn ROUND.jpg" alt="Background picture">
        
         </div>
    
     </main>
     <footer class="footer-box">
-        <a class="contact-icon" href="mailto:mrmokebei@gmail.com"></a>
-      <i class="fas fa-envelope"></i>
+      <a href="mailto:mrmokebei@gmail.com">
+  <i class="fas fa-envelope"></i> Email Me
+</a> 
     </a>
     <a class="contact-icon" href="https://github.com/Txdedeejay" target="_blank" title="GitHub Profile">
       <i class="fab fa-github"></i>

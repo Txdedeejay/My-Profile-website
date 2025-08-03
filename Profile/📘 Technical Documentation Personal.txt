@@ -1,0 +1,58 @@
+📘 Technical Documentation: Personal Profile Website
+📌 Project Title:
+Personal Profile Website
+
+🧑‍💻 Author:
+Itumeleng
+
+📝 Overview
+This project is a personal profile website created using HTML and CSS. It serves as a beginner-friendly introduction to web development and showcases basic front-end design skills. The website includes a profile image, contact links, and responsive layout elements.
+
+🎯 Objective
+To learn and apply the fundamentals of HTML structure.
+
+To practice CSS styling for layouts, positioning, and aesthetic enhancements.
+
+To understand how small design tweaks (like image editing and icons) can improve user experience.
+
+🛠️ Technologies Used
+Technology	Purpose
+HTML5	Building the webpage structure
+CSS3	Styling and layout
+Font Awesome	Adding icons (GitHub, Email)
+Photoshop	Editing and rounding profile picture
+
+📂 Project Structure
+bash
+Copy
+Edit
+profile-website/
+│
+├── index.html        # Main HTML file
+├── styles.css        # Custom CSS styling
+└── images/
+    └── profile.jpg   # Edited profile picture
+🔧 Key Features Implemented
+Responsive Profile Image
+A rounded and visually enhanced profile picture using Photoshop and styled with CSS.
+
+Centered Layouts
+Used CSS Flexbox and positioning to center images and icons.
+
+Contact Links
+Interactive GitHub and Email icons in the footer that link to external profiles or mail client.
+
+Clean Typography and Styling
+Simple font choices and color themes to improve readability and aesthetic appeal.
+
+💡 Learning Highlights
+Learned to structure webpages with <div>, <footer>, <a>, and <img> elements.
+
+Gained understanding of Flexbox for layout control.
+
+Improved visual design through CSS properties like border-radius, margin, and text-align.
+
+Used Photoshop to enhance and crop images creatively.
+
+Understood how to link external icons using Font Awesome.
+
